@@ -1,0 +1,124 @@
+/* Just the taskbar styles */
+
+#taskbar {
+    background-color: silver;
+    position: fixed; /* relative to the browser window */
+    bottom: 0; /* use with positioned: fixed rel to browser */
+    width: 100%;
+    height: auto; /* relative to the buttons within */
+    z-index: 999; /* always up front */
+
+    display: flex; /* flexbox for the buttons */
+    align-items: center;
+    border-top: 2px solid white;
+}
+
+  .taskbar-button {
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    margin: 3px;
+    padding: 3px;
+    font-family: 'Windows';
+    font-weight: 900;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    border-style: solid;
+    border-width: 2px;
+  }
+
+  .taskbar-button img {
+    width: 20px;
+    margin-right: 7px;
+  }
+
+  .button-inactive {
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: black;
+    border-right-color: black;
+  }
+
+  .button-active {
+    background-color: #dddddd;
+    background-image: url('../images/backgrounds/active.svg');
+    background-size: 4px;
+    image-rendering: pixelated; /* dont blend! */
+
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: white;
+    border-right-color: white;
+  }
+
+  #tray {
+    font-weight: 300;
+    background-color: #bcbfc4;
+    border-top-color: #868485;
+    border-left-color: #868485;
+    border-bottom-color: white;
+    border-right-color: white;
+  }
+
+  .taskbar-divider {
+    width: 2px;
+    height: 25px;
+    background-color: #868485;
+    border-right: 1px solid white;
+    margin: 0 10px;
+  }
+
+  #taskbar-pins {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  #taskbar-pins img {
+    width: 20px;
+  }
+
+  #mp3-player-tb {
+    position: relative;
+    margin-left: auto;
+    background-color: #bcbfc4;
+    border-top-color: #868485;
+    border-left-color: #868485;
+    border-bottom-color: white;
+    border-right-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    padding: 3px;
+    font-family: 'Windows';
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-style: solid;
+    border-width: 2px;
+
+    margin-left: auto;
+  }
+
+  #mp3-player-content {
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+  }
+
+  #mp3-player-content img {
+    width: 15px;
+    margin-right: 7px;
+  }
+
+  #mp3-progress-bar {
+    position: absolute;
+    bottom: 0;
+    background-color: #000082;
+    height: 2px;
+    width: 100%;
+  }

@@ -1,0 +1,46 @@
+/* Universal styles */
+
+@font-face {
+    font-family: 'Windows';
+    src: url('../fonts/windows.ttf');
+}
+
+@font-face {
+    font-family: 'Seven Segment';
+    src: url('../fonts/Seven\ Segment.ttf');
+}
+
+html, body {
+    cursor: url('../cursors/arrow.cur'), auto;
+  }
+
+a, .pointer {
+    cursor: url('../cursors/Cursor_15.cur'), auto;
+}
+
+body {
+    background-color: #038180;
+    margin: 0; /* remove default body margin */
+    padding: 0; /* remove padding between body and internal divs */
+    min-height: 100vh; /* fill entire viewport */
+    position: relative;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 16px;
+    padding-top: 10px;
+    margin: 0px;
+    padding-bottom: 15px;
+    color: #ffd596;
+}
+
+h3 {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: rgba(150, 150, 150, 0.557) 3px 3px;
+}

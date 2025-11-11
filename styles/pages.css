@@ -1,0 +1,39 @@
+/* The styles for each customized content body within the netscape browser */
+
+.content-body {
+    position: relative;
+    background-color: white;
+    padding:10px;
+    border-radius: 10px;
+    outline-offset: 2px;
+}
+
+#content-body-home {
+    border: 3px solid #2bb4e6;
+    outline: 2px solid blue;
+    background-image: url('../images/backgrounds/marble-bg.gif');
+}
+
+#content-body-contact {
+    display: none;
+    border: 3px solid red;
+    outline: 2px solid green;
+    background-image: url('../images/backgrounds/marble-bg.gif');
+}
+
+#content-body-electronics {
+    display: none;
+}
+
+#content-body-reels {
+    display: none;
+}
+
+#content-body-horses {
+    display: none;
+}
+
+#content-body-bands {
+    display: none;
+}
+

@@ -1,0 +1,77 @@
+/* Just the minesweeper window styles */
+
+#minesweeper-window {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: silver;
+    font-family: 'Windows';
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: black;
+    border-right-color: black;
+    z-index: 999;
+}
+
+#minesweeper-content {
+    margin: 0px;
+    border-style: solid;
+    border-width: 3px;
+    border-top-color: white;
+    border-left-color: white;
+}
+
+#minesweeper-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6px;
+    padding: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #868485;
+    border-left-color: #868485;
+    border-bottom-color: white;
+    border-right-color: white;
+    font-family: "Seven Segment";
+    color: red;
+    font-size: 40px;
+}
+
+#minesweeper-controls img {
+    width: 40px;
+    border: 2px solid black;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 4px;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: #868485;
+    border-right-color: #868485;
+}
+
+#minesweeper-score {
+    background-color: black;
+}
+
+#minesweeper-timer {
+    background-color: black;
+}
+
+#minesweeper-grid {
+    margin: 6px;
+    margin-top: 0px;
+    padding: 4px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: #868485;
+    border-left-color: #868485;
+    border-bottom-color: white;
+    border-right-color: white;
+}

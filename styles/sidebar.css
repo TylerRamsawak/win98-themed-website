@@ -1,0 +1,99 @@
+/* Just the sidebar styles within the netscape browser */
+
+#navbar {
+    width: 140px;
+    color: white;
+    margin: 10px;
+    margin-left: 20px;
+    transform: rotate(-2deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/backgrounds/bubbles.gif'), linear-gradient(180deg,#000082, transparent);
+}
+
+#navbar h1 img {
+    width: fit-content;
+    transform: translateY(5px);
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+  }
+
+#navbar li {
+    position: relative;
+    margin-bottom: 5px;
+    transform: rotate(4deg);
+}
+
+#navbar a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: yellow;
+}
+
+#navbar a:hover {
+    color: white;
+}
+
+.navbar-image {
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.spin-hover {
+    transition: transform 1s linear;
+}
+
+.spin-hover:hover {
+    transform: rotate(360deg);
+}
+
+.frame1 {
+    border: 20px solid transparent;
+    border-image: url('../images/frames/frame1.png') 90;
+    background-color: black;
+}
+
+.frame2 {
+    border: 20px solid transparent;
+    border-image: url('../images/frames/frame2.png') 160;
+    background-color: black;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    color: yellow;
+    margin: 10px;
+    align-items: center;
+}
+
+#friends {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(3deg) translateX(15px);
+    width: 130px;
+    margin: 25px;
+    margin-top: 10px;
+    background-image: url('../images/backgrounds/bubbles.gif');
+}
+
+#friends a {
+    width: 70%;
+    margin-bottom: 7px;
+}
+
+.li-arrow {
+    display: none;
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 10px;
+    right: 0;
+    width: 20px;
+}

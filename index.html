@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Neighhh!</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <link rel="stylesheet" href="styles/scrollbar.css">
+        <link rel="stylesheet" href="styles/universal.css">
+        <link rel="stylesheet" href="styles/taskbar.css">
+        <link rel="stylesheet" href="styles/window.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/pages.css">
+        <link rel="stylesheet" href="styles/loading.css">
+        <link rel="stylesheet" href="styles/minesweeper.css">
+        <link rel="stylesheet" href="styles/netscape.css">
+
+        <audio autoplay id="win95-startup">
+            <source src="audio/win95-startup.mp3" type="audio/mpeg" controls>
+        </audio>
+        <audio autoplay id="hdd-startup">
+            <source src="audio/hdd-startup.mp3" type="audio/mpeg" controls>
+        </audio>
+        <audio id="floppy" src="audio/floppy.wav"></audio>
+    </head>
+
+    <body>
+        <div id="desktop">
+            <div class="window" id="netscape-window">
+                <div class="window-tab">
+                    <img class="tab-icon" src="images/icons/netscape.png">Netscape Navigator v2.0
+                    <img class="tab-close" src="images/icons/close.gif">
+                </div>
+                <div id="url-bar">
+                    <div class="taskbar-divider"></div>
+                    <span>Address</span>
+                    <div id="url-field">
+                        <img src="images/icons/page.ico">
+                        <span id="url">https://www.ramsawak.neocities.org</span>
+                    </div>
+                    <div class="url-button">
+                        <span>Search</span>
+                    </div>
+                    <div class="taskbar-divider"></div>
+                </div>
+                <div class="container" id="netscape-background">
+                    <div class="sidebar">
+                        <nav id="navbar" class="frame1">
+                            <h1>Navi-GATOR<img src="images/tiny-gator.gif"></h1>
+                            <ul>
+                                <li id="home"><a href="#"><img class="spin-hover navbar-image" src="images/mushroomhouse.gif">Home</a><img id="home-arrow" class="li-arrow" style="display: block;" src="images/red-arrow.gif"></li>
+                                <li id="contact"><a href="#"><img class="spin-hover navbar-image" src="images/stickman.gif">Contact</a><img id="contact-arrow" class="li-arrow" src="images/red-arrow.gif"></li>
+                                <li id="electronics"><a href="#"><img class="spin-hover navbar-image" src="images/circuit.gif">Electronics</a><img id="electronics-arrow" class="li-arrow" src="images/red-arrow.gif"></li>
+                                <li id="reels"><a href="#"><img class="spin-hover navbar-image" src="images/reproducer.gif">Reel to Reel</a><img id="reels-arrow" class="li-arrow" src="images/red-arrow.gif"></li>
+                                <li id="horses"><a href="#"><img class="spin-hover navbar-image" src="images/horse-spin.gif">Cool Horses</a><img id="horses-arrow" class="li-arrow" src="images/red-arrow.gif"></li>
+                                <li id="bands"><a href="#"><img class="spin-hover navbar-image" src="images/radiohead-albums.gif">Bands</a><img id="bands-arrow" class="li-arrow" src="images/red-arrow.gif"></li>
+                            </ul>
+                        </nav>
+                        <div id="friends" class="frame2">
+                            <h3>Friends!</h3>
+                            <a href="https://evalu.squarespace.com/"><img src="images/88x31/evalu.png"></a>
+                        </div>
+                    </div>
+                    <div id="content">
+                        <div id="content-header">
+                            hi im a header i dont do much here
+                        </div>
+                        <div id="content-body-home" class="content-body">
+                            <div id="content-banner">
+                                <img src="images/banners/name-fire.gif">
+                            </div>
+                            <p>
+                                <h2>ABOUT ME</h3>
+                                Welcome to my site! My name is Tyler Ramsawak, and I'm a new student
+                                at the University of Florida *chomp chomp*. I plan on becoming an
+                                electrical engineer who designs new electronic circuits. I also really
+                                want to make my own ASICs by the time im 20. For a few years now, I've been
+                                designing my own electronic devices in KiCAD and fabricating them at home.
+                                <h3>MUSIC</h3>
+                                In january of 2025, I picked up the electric guitar and bass guitar. I've
+                                been practicing and playing all my favorite songs for a few months now, and
+                                I want to start song writing and form a band at UF. I loveeee indie,
+                                alt-rock, experimental, midwest-emo, all the emos, mall-rock, post
+                                punk, goth, dark metal, and so on. Anything with a guitar i love. Some
+                                of my favorite bands are Interpol, Radiohead, Weezer, and Arcade Fire.
+                                I think I would consider myself to be emo, but not goth. I sometimes dress
+                                up goth-y and I have been to a goth club, but Im more emo for sure. XxX
+                                <br><img src="images/i-heart-guitar.gif">
+                                <h3>REEL TO REEL</h3>
+                                I calibrate reel to reel reproducers on the side. I charge $200 flat for a 
+                                calibration, and I can repair your deck for a quote. Check out the Reel to Reel
+                                tab on the Navi-GATOR for more information, quotes, and ordering.
+                            </p>  
+                        </div>
+                        <div id="content-body-contact" class="content-body">
+                            <div id="content-banner">
+                                <img src="images/banners/name-fire.gif">
+                            </div>
+                            CONTACT
+                        </div>
+                        <div id="content-body-electronics" class="content-body">
+                            ELECTRONICS
+                        </div>
+                        <div id="content-body-reels" class="content-body">
+                            REEL TO REEL
+                        </div>
+                        <div id="content-body-horses" class="content-body">
+                            COOL FUCKIN HORSES
+                        </div>
+                        <div id="content-body-bands" class="content-body">
+                            BANDS AND MUSIC
+                        </div>
+                        <div id="content-footer">
+                            <h3>© TYLER RAMSAWAK - MMXXV</h3>
+                            <h3>Construction begain: Thu Jul 17, 10:15PM, 2025</h3>
+                            <br>
+                            <div id="footer-images">
+                                <img src="images/88x31/hellokitty.gif">
+                                <img src="images/88x31/68ch11now.jpg">
+                                <img src="images/88x31/made_with_windows.gif">
+                                <img src="images/www.gif">
+                                <img src="images/88x31/neocities.gif">
+                                <img src="images/88x31/apocalypse_now.gif">
+                                <img src="images/88x31/sun.gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="window" id="minesweeper-window">
+                <div class="window-tab">
+                    <span>Minesweeper</span>
+                    <img class="tab-close" src="images/icons/close.gif">
+                </div>
+                <div id="minesweeper-content">
+                    <div id="minesweeper-controls">
+                        <div id="minesweeper-score">010</div>
+                        <img src="images/icons/smiley.png">
+                        <div id="minesweeper-timer">000</div>
+                    </div>
+                    <div id="minesweeper-grid">
+                        Work in progress
+                    </div>
+                </div>
+            </div>
+            <div class="window" id="loading-popup">
+                <div class="window-tab">
+                    <span>Loading...</span>
+                    <img class="tab-close" src="images/icons/close.gif">
+                </div>
+                <div id="loading-content">
+                    Loading <span id="loading-id"></span>...
+                    <div id="loading-bar">
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                        <div class="block"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="taskbar">
+            <span class="taskbar-button button-inactive"><img src="images/icons/start.ico">Start</span>
+            <div class="taskbar-divider"></div>
+            <div id="taskbar-pins">
+                <img src="images/icons/desktop.png">
+                <img src="images/icons/ie.png">
+                <img src="images/icons/outlook.png">
+            </div>
+            <div class="taskbar-divider"></div>
+            <span id="netscape-tb" class="taskbar-button button-active pointer"><img src="images/icons/netscape.png">Netscape Navigator</span>
+            <span id="minesweeper-tb" class="taskbar-button button-inactive pointer"><img src="images/icons/minesweeper.webp">Minesweeper</span>
+            <span id="mp3-player-tb" class="button-inactive">
+                <div id="mp3-player-content">
+                    <img id="mp3-button" src="images/icons/play.png">
+                    <span id="mp3-title">Buddy Holly - Weezer.mp3</span>
+                </div>
+                <div id="mp3-progress-bar"></div>
+            </span>
+            <span id="tray" class="taskbar-button" ><img src="images/icons/info.ico"><img src="images/icons/battery.ico"><img src="images/icons/speaker.ico"><span id="clock">00:00</span></span>
+        </div>
+    </body>
+</html>
+
+<script src="audio.js"></script>
+<script src="loading.js"></script>
+<script src="minesweeper.js"></script>
+<script src="taskbar.js"></script>
+<script src="randCursor.js"></script>
