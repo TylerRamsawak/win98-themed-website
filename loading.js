@@ -24,10 +24,10 @@ function loadingPopup(id) {
     // set URL text content
     const url = document.getElementById("url");
     if (id != "home"){
-      url.textContent = "https://www.ramsawak.neocities.org/" + id;
+      url.textContent = "https://www.tylerramsawak.github.io/" + id;
     }
     else {
-      url.textContent = "https://www.ramsawak.neocities.org/";
+      url.textContent = "https://www.tylerramsawak.github.io/";
     }
 
     // -----ARROW STUFF-----
